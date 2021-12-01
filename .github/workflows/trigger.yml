@@ -1,0 +1,13 @@
+on: push
+  branches:
+    - main
+
+jobs:
+  trigger:
+    name: Trigger
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Request
+      - run: |
+          curl -H "Authorization: token ${{ secrets.DISPATCH_TOKEN }}" -d "{'event_type': 'update_data'}" ${{ secrets.BLOG_DISPATCHES_URL }}
