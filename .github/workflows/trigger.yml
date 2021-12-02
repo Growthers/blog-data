@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Request
         run: |
-          curl -H "Authorization: token ${{ secrets.DISPATCH_TOKEN }}" -d "{'event_type': 'update_data'}" ${{ secrets.BLOG_DISPATCHES_URL }}
+          curl -H "Authorization: token ${{ secrets.DISPATCH_TOKEN }}" -H "Accept: application/vnd.github.v3+json"  ${{ secrets.BLOG_DISPATCHES_URL }} -d '{"event_type":"update_data"}'
