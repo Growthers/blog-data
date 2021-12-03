@@ -94,4 +94,4 @@ CSSフレームワークとしてTailwind CSSを利用しており,開発速度�
 [公式アカウント @udcGrowthers](https://twitter.com/udcgrowthers)
 
 ## 告知
-明日(12/2)はうよりさんの記事「TRPGで知る文章構築」です. お楽しみに
+明日(12/2)はうよりさんの記事「[TRPGで知る文章構築](https://note.com/mruyr/n/nd7cedff3d30a)」です. お楽しみに
