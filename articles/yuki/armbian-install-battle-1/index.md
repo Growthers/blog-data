@@ -3,9 +3,8 @@ title: "Armbian Build Battle"
 date: 2021-12-08
 ---
 
- Armbian Build Battle
-この記事は共同開発鯖 Advent Calendar 2021 8日目の記事です
-https://qiita.com/advent-calendar/2021/growthers
+この記事は共同開発鯖 Advent Calendar 2021 8日目の記事です  
+https://qiita.com/advent-calendar/2021/growthers  
 
 ## はじめに
 
@@ -29,7 +28,8 @@ Pine64という[PinePhone](https://www.pine64.org/pinephone/)や[PineTime](https
 |値段    | 1GB 2980円 / 2GB 4480円 | 4950円 〜|  
 
 ラズパイ3 Model Bと似たスペックでラズパイ3 Model Bよりも安く買うことができます。
-現在は[Pine A64+](https://www.pine64.org/devices/single-board-computers/pine-a64/)の後継機[Pine A64-LTS](https://www.pine64.org/devices/single-board-computers/pine-a64-lts/)のみの販売になってしまったようですが、秋月電子通商などではまだ在庫が残っているようなので、興味のある方は買ってみてください。  
+現在は[Pine A64+](https://www.pine64.org/devices/single-board-computers/pine-a64/)の後継機である[Pine A64-LTS](https://www.pine64.org/devices/single-board-computers/pine-a64-lts/)のみの販売になってしまったようですが、秋月電子通商などではまだ在庫が残っているようなので、興味のある方は買ってみてください。  
+
 https://akizukidenshi.com/catalog/g/gM-12067
 
 ## Armbianとは  
@@ -56,7 +56,7 @@ Shell: fish shell
 ### Armbian Build Toolsの入手
 まず最初に、Armbian Build Toolsを入手します。
 ```
-$ git clone --depth 1 https://github.com/armbian/build
+$ git clone --depth 1 git@github.com:armbian/build.git
 $ cd build
 $ ./compile.sh docker
 ```
