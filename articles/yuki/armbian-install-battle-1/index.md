@@ -1,4 +1,9 @@
-# Armbian Build Battle
+#---
+title: "Armbian Build Battle"
+date: 2021-12-08
+---
+
+ Armbian Build Battle
 この記事は共同開発鯖 Advent Calendar 2021 8日目の記事です
 https://qiita.com/advent-calendar/2021/growthers
 
