@@ -3,11 +3,6 @@ title: "チーム開発のすゝめ"
 date: 2021-12-12
 ---
 
----
-title: "チーム開発のすゝめ"
-date: 2021-12-12
----
-
 # チーム開発のすゝめ
 
 この記事は[共同開発鯖 Advent Calender 2021](https://qiita.com/advent-calendar/2021/growthers)の12日目の記事です
