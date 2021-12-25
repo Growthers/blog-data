@@ -127,10 +127,10 @@ test.c:1:16: note: expanded from macro 'ㅤㅤ'
 こんな感じでU+3164を変数名として使っていることがわかります。  
 
 ## どの文字が識別子として使用できるのか  
-C言語でUnicodeが使用できるのはC言語の仕様として制定されているからです(尚、エスケープされていない文字の使用は処理系依存)。
-では、逆にどの文字が使えないのでしょうか？
+C言語でUnicodeが使用できるのはC言語の仕様として制定されているからです(尚、エスケープされていない文字の使用は処理系依存)。  
+では、逆にどの文字が使えないのでしょうか？  
 
-ISO/IEC 9899:2011のドラフトを参照してみると
+ISO/IEC 9899:2011のドラフトを参照してみると  
 > **Constraints**
 > 2 A universal character name shall not specify a character whose short identifier is less than
 > 00A0 other than 0024 ($), 0040 (@), or 0060 (‘), nor one in the range D800 through
