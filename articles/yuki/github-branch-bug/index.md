@@ -12,7 +12,7 @@ date: 2021-01-08
 Oshaveryの開発中にファイルを大量に削除する機会があり、`delete/files`というブランチ名でブランチを切り作業を行いました。  
 ローカルでブランチを切って作業を行い、GitHubへpushするところまではよかったのですが、 PullRequestの際に、delete/filesブランチにアクセスすると  
 
-![github404.jpg](https://imgur.com/Ih8mrHy)
+![github404.jpg](https://imgur.com/Ih8mrHy.jpg)
 
 という風にhttps://github.com/404 へリダイレクトされてしまいました。  
   
@@ -22,7 +22,7 @@ Oshaveryの開発中にファイルを大量に削除する機会があり、`de
 とりあえず、HTTPメソッドの中からPOST , GET , PUT , DELETE の4つをブランチ名に付けて検証してみます。  
 ローカルでpost/testのようにブランチを切り、GitHubにpushして検証しました。  
 
-![github_branches.jpg](https://imgur.com/6EU2zNP)
+![github_branches.jpg](https://imgur.com/6EU2zNP.jpg)
 
 | ブランチ名  | 結果 |
 | ----------  | ---- |
