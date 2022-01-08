@@ -83,10 +83,9 @@ Unicodeが使えることが分かったら、コンパイルが通る範囲で�
 このコードはClangもしくはGCC10以上でコンパイルすることができます。
 
 こちらのコード、C言語で(処理系依存だけれど)日本語が使えるという話を聞き、知能指数をいい感じに下げながら書いたものです。  
-これの前身となったコードを[Twitter](https://twitter.com/yuki_yuigishi/status/1463394403683160067?s=20)に貼ったら謎にウケました。
+これの前身となったコードを[Twitter](https://twitter.com/yuki_yuigishi/status/1463394403683160067?isogp=false)に貼ったら謎にウケました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">にほんごぷよぐらみんぐ <a href="https://t.co/1yQfAIfujI">pic.twitter.com/1yQfAIfujI</a></p>&mdash; 雪 (@yuki_yuigishi) <a href="https://twitter.com/yuki_yuigishi/status/1463394403683160067?ref_src=twsrc%5Etfw">November 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 
 ```c

@@ -12,7 +12,7 @@ date: 2021-01-08
 Oshaveryの開発中にファイルを大量に削除する機会があり、`delete/files`というブランチ名でブランチを切り作業を行いました。  
 ローカルでブランチを切って作業を行い、GitHubへpushするところまではよかったのですが、 PullRequestの際に、delete/filesブランチにアクセスすると  
 
-![github404.jpg](./github404.jpg)
+![github404.jpg](https://imgur.com/Ih8mrHy)
 
 という風にhttps://github.com/404 へリダイレクトされてしまいました。  
   
@@ -22,7 +22,7 @@ Oshaveryの開発中にファイルを大量に削除する機会があり、`de
 とりあえず、HTTPメソッドの中からPOST , GET , PUT , DELETE の4つをブランチ名に付けて検証してみます。  
 ローカルでpost/testのようにブランチを切り、GitHubにpushして検証しました。  
 
-[github_branches.jpg](./github_branches.jpg)
+![github_branches.jpg](https://imgur.com/6EU2zNP)
 
 | ブランチ名  | 結果 |
 | ----------  | ---- |
@@ -41,5 +41,5 @@ Oshaveryの開発中にファイルを大量に削除する機会があり、`de
 
 ## まとめ
 
-検証結果からは何もわかりませんでしたが、[「Qiitaのユーザー名に3桁数字を使うときの注意」とその後](https://qiita.com/nginx/items/e9afcdd7374c9eaeb472)の様にルーティング周りのバグを踏んでしまった可能性が高いことがわかりました。  
+検証結果からは何もわかりませんでしたが、[Qiitaの元@500さん](https://qiita.com/nginx/items/e9afcdd7374c9eaeb472?isogp=flase)の様にルーティング周りのバグを踏んでしまった可能性が高いことがわかりました。  
 今後は`delete/files`の様なブランチ名をつけるのはやめましょう。  
