@@ -25,7 +25,7 @@ SNCTの21s。学科は電電です。普段は♰ロボコンプロジェクト�
 
 # そんな納豆とチーズのように、合わせたら最つよになる環境をご紹介
 いきなりですが！人類はSTM32使ってますか！？ここでSTM32シリーズ「Nucleo」の上位モデルであるF767ZIの右端のピン割り当てを見てみましょう
-![top right side](https://imgur.com/a/Yth0YJm)
+![top right side](https://imgur.com/gallery/WtVp2mp)
 使い心地がありますね！これでたったの3～4000円！！！安い！
 mbedのLPC1768が5000円だと考えるととってもお得ですよね。
 
