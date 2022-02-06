@@ -30,7 +30,7 @@ Pine64という[PinePhone](https://www.pine64.org/pinephone/)や[PineTime](https
 ラズパイ3 Model Bと似たスペックでラズパイ3 Model Bよりも安く買うことができます。
 現在は[Pine A64+](https://www.pine64.org/devices/single-board-computers/pine-a64/)の後継機である[Pine A64-LTS](https://www.pine64.org/devices/single-board-computers/pine-a64-lts/)のみの販売になってしまったようですが、秋月電子通商などではまだ在庫が残っているようなので、興味のある方は買ってみてください。  
 
-https://akizukidenshi.com/catalog/g/gM-12067
+https://akizukidenshi.com
 
 ## Armbianとは  
 > Armbian is a base operating system platform for single board computers (SBCs) that other projects can trust to build upon.  
