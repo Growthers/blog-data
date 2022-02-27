@@ -1,0 +1,12 @@
+*.*
+
+# setting
+!README.md
+!.gitignore
+
+# article
+!/articles/**/index.md
+
+# prifile
+!/articles/*/profile.json
+
