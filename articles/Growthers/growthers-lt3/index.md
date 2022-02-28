@@ -11,9 +11,9 @@ date: 2022-2-27
 ![growthers-lt3.jpg](https://imgur.com/5wcLyCS.jpg)
 
 ## 過去に行われたLT
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OQggPcMWcXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OQggPcMWcXc?isogp=false" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WYBMuuybdko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WYBMuuybdko?isogp=false" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
 ## 共同開発鯖とは
 全国の高専生・高校生達がゆるゆるとプログラミングをしたり、していなかったりするグループです。  
