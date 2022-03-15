@@ -17,7 +17,7 @@ Atmegaを奪われたArduino UNOが机の上に転がっていたり、ブート
 まず、Arduino UNOをAtmegaライターとして利用するための準備を行います。  
 スケッチ例の中からArduinoISPを開いて、書き込み用のArduino UNOに書き込みます。  
 `ファイル >> スケッチ例 >> 11.ArduinoISP >> ArduinoISP`  
-![ArduinoISP](https://imgur.com/xlMQ3V6.jpg)
+![ArduinoISP](https://imgur.com/toPBaCn.jpg)
 
 ## ピンの接続
 
@@ -56,7 +56,7 @@ Arduino UNO(書き込まれる側)
 ![SelectArduinoISP](https://imgur.com/Q0iK752.jpg)  
 
 ボードとシリアルポートを正しく設定して、ブートローダに書き込むをクリックしてください。これでブートローダの書き込みは完了です。  
-![WriteBootloader](https://imgur.com/l6ATgsw.jpg)  
+![WriteBootloader](https://imgur.com/xlMQ3V6.jpg)  
 
 ## 解説
 なぜ、この方法で書き込めるかの解説です。一般的なことしか書いていませんが不備があれば指摘をお願いします。  
