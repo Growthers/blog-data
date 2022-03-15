@@ -1,6 +1,6 @@
 ---
 title: "Arduino boot loaderのお手軽書き込み方法"
-date: 2022-3-15
+date: 2022-03-15
 ---
 
 Atmegaを奪われたArduino UNOが机の上に転がっていたり、ブートローダが吹き飛んだAtmega328pがあったりしますよね。今回は一番楽に(たぶん)Arduino UNOにブートローダを書き込む方法を紹介します。  
