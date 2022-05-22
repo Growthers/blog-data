@@ -19,7 +19,7 @@ ArchWiki [wpa_supplicant](https://wiki.archlinux.jp/index.php/Wpa_supplicant)
 昨年の春に突如として導入され、前情報もクソもなかった為、多くの寮生が「APEX出来ねえんだけど！？」とキレ散らかした。
 WindowsでやるよりもLinuxで接続したほうが、簡単説がある認証規格である。
 
-[](https://imgur.com/BXEu8KQ.jpg)
+[tweet](https://imgur.com/BXEu8KQ.jpg)
 キレ散らかしていた様子
 
 ## 対処１ 落としてきたdeb経由でインストール(失敗)
@@ -44,7 +44,7 @@ AlterLinuxを使うメリット
 ```
 
 尚、`/etc/resolv.conf`がコピーされない為、名前解決が失敗する
-[](https://images-ext-2.discordapp.net/external/JanmE90PISF8maPrUOTYYNpfsf6BW5IagmyJJATdr1E/https/i.imgur.com/YVUVUt3.png)
+[discord_msg](https://images-ext-2.discordapp.net/external/JanmE90PISF8maPrUOTYYNpfsf6BW5IagmyJJATdr1E/https/i.imgur.com/YVUVUt3.jpg)
 ## 対処３ arch-chroot経由でインストール(成功)
 > `/usr/bin/chroot`を実行する前にこのスクリプトは `/proc`などの api ファイルシステムをマウントして、chroot から使える `/etc/resolv.conf` を作成します。
 [chrootより引用](https://wiki.archlinux.jp/index.php/Chroot#arch-chroot_.E3.82.92.E4.BD.BF.E3.81.86)
