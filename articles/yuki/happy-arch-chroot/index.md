@@ -46,13 +46,14 @@ AlterLinuxを使うメリット
 ```
 
 しかし、`/etc/resolv.conf`がコピーされない為、名前解決が失敗する。  
-![discord_msg](https://images-ext-2.discordapp.net/external/JanmE90PISF8maPrUOTYYNpfsf6BW5IagmyJJATdr1E/https/i.imgur.com/YVUVUt3.jpg)  
+![discord_msg](https://i.imgur.com/YVUVUt3.png)  
   
   
 ## 対処３ arch-chroot経由でインストール(成功)
-> `/usr/bin/chroot`を実行する前にこのスクリプトは `/proc`などの api ファイルシステムをマウントして、chroot から使える `/etc/resolv.conf` を作成します。  
-[chrootより引用](https://wiki.archlinux.jp/index.php/Chroot#arch-chroot_.E3.82.92.E4.BD.BF.E3.81.86)  
-らしいです。
+> `/usr/bin/chroot`を実行する前にこのスクリプトは `/proc`などの api ファイルシステムをマウントして、chroot から使える `/etc/resolv.conf` を作成します。
+  
+[chrootより引用](https://wiki.archlinux.jp/index.php/Chroot#arch-chroot_.E3.82.92.E4.BD.BF.E3.81.86?isogp=false)  
+らしいです。  
 
 ```sh
 # mount /dev/sdax /mnt
@@ -65,3 +66,7 @@ arch-chrootを使うことで名前解決ができるようになり、aptを使
 ## まとめ  
 AlterLinuxでarch-chrootをすると、GUIで802.1x認証が出来て楽  
   
+## 参考
+[Archwiki wpa_supplicant](https://wiki.archlinux.jp/index.php/Wpa_supplicant)  
+[ArchWiki chroot](https://wiki.archlinux.jp/index.php/Chroot)   
+[IEE802.1X認証とは、EAPとは](https://www.infraexpert.com/study/wireless14.html)  
